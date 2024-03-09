@@ -14,7 +14,7 @@ const Index = () => {
           <Text fontSize="lg" color="gray.600">
             PulsePro is an intelligent project management SaaS platform that seamlessly integrates collaboration tools, real-time analytics, and automated workflows, empowering teams to achieve peak performance and project success.
           </Text>
-          <Button rightIcon={<FaArrowRight />} colorScheme="blue" size="lg">
+          <Button rightIcon={<FaArrowRight />} colorScheme="blue" size="lg" onClick={() => (window.location.href = "/pricing")}>
             Get Started
           </Button>
         </VStack>
