@@ -19,7 +19,7 @@ const Index = () => {
           </Button>
         </VStack>
         <Box w="full" maxW="md" mt={[10, 0]}>
-          <Image src="https://images.unsplash.com/photo-of-elon-musk" alt="Elon Musk" />
+          <Image src="https://images.unsplash.com/photo-1630673348540-f48385105436?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxTYWFTJTIwcHJvZHVjdHxlbnwwfHx8fDE3MDk5NzMwMjN8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="SaaS Product" />
         </Box>
       </Flex>
 
