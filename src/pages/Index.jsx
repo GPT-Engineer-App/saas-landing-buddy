@@ -9,10 +9,10 @@ const Index = () => {
       <Flex align="center" justify="space-between" wrap="wrap" py={20} px={[5, 10, 15]}>
         <VStack spacing={5} align="flex-start" w="full" maxW="lg">
           <Heading as="h1" size="2xl" fontWeight="bold">
-            Revolutionize Your Business with Our SaaS Solution
+            Welcome to PulsePro
           </Heading>
           <Text fontSize="lg" color="gray.600">
-            Elevate your workflow with our easy-to-use platform designed to increase productivity and streamline your operations.
+            PulsePro is an intelligent project management SaaS platform that seamlessly integrates collaboration tools, real-time analytics, and automated workflows, empowering teams to achieve peak performance and project success.
           </Text>
           <Button rightIcon={<FaArrowRight />} colorScheme="blue" size="lg">
             Get Started
