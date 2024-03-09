@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Button, Container, Flex, Heading, Image, Stack, Text, VStack } from "@chakra-ui/react";
-import { FaArrowRight, FaCloud, FaDesktop, FaMobileAlt, FaTabletAlt } from "react-icons/fa";
+import { FaArrowRight, FaCloud, FaDesktop, FaMobileAlt, FaTabletAlt, FaApple } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -34,6 +34,7 @@ const Index = () => {
             <FeatureBox icon={FaDesktop} title="Desktop App" description="Native applications for Windows and MacOS platforms." />
             <FeatureBox icon={FaMobileAlt} title="Mobile Friendly" description="Seamless experience on smartphones and tablets." />
             <FeatureBox icon={FaTabletAlt} title="Optimized for Tablets" description="Customized layouts for larger touch screens." />
+            <FeatureBox icon={FaApple} title="Apple Vision Pro" description="Specialized apps for the Apple Vision Pro platform." />
           </Flex>
         </Stack>
       </Box>
